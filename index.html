@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title> Documento </title>
+
+<script type="text/javascript" src="script.js"> </script>
+<link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+
+Nome:
+<input id="name" type="text" maxlength="80">
+<br>
+
+Apelido:
+<input id="nickname" type="text" maxlength="20">
+<br>
+
+Data de nascimento:
+<input id="date" type="date">
+<!--input id="day" type="text" maxlength="2">/
+<input id="month" type="text" maxlength="2">/
+<input id="year" type="text" maxlength="4"-->
+<br>
+
+CPF:
+<input id="cpf" type="text" maxlength="14">
+<br>
+
+Time do coração:
+<select id="team_id" maxlength="20">
+<option id="1t"> São Paulo </option>
+<option id="2t"> Fluminense </option>
+<option id="3t"> Palmeiras </option>
+</select>
+<br>
+
+Esportes de interesse:<br>
+<input type="checkbox" name="sport" id="1e">Futebol<br>
+<input type="checkbox" name="sport" id="2e">Vôlei<br>
+<input type="checkbox" name="sport" id="3e">Basquete<br>
+<input type="checkbox" name="sport" id="4e">Futsal<br>
+<input type="checkbox" name="sport" id="5e">Automobilismo<br>
+<input type="checkbox" name="sport" id="6e">Artes Marciais<br>
+<input type="checkbox" name="sport" id="7e">Natação<br>
+
+<button onclick="enviar()"> Enviar </button>
+<hr>
+<p id="resultado"></p>
+</body>
+</html>
